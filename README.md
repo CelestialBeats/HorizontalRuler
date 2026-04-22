@@ -1,5 +1,7 @@
 # HorizontalRuler
 
+[![](https://jitpack.io/v/CelestialBeats/HorizontalRuler.svg)](https://jitpack.io/#CelestialBeats/HorizontalRuler)
+
 A lightweight and customizable Android `View` to pick numeric values with horizontal drag/fling + step snapping.
 
 ## Why Use It
@@ -21,8 +23,53 @@ The sample app includes 2 examples:
 
 ## Installation
 
-### Option 1: Local module
-Add the library module to your project and include:
+### 1) Add JitPack repository
+
+`settings.gradle.kts`
+
+```kotlin
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven(url = "https://jitpack.io")
+    }
+}
+```
+
+### 2) Add dependency
+
+#### Simple (build.gradle / build.gradle.kts)
+
+```kotlin
+dependencies {
+    implementation("com.github.CelestialBeats:HorizontalRuler:1.0")
+}
+```
+
+#### Version Catalog (`libs.versions.toml` + `build.gradle.kts`)
+
+`gradle/libs.versions.toml`
+
+```toml
+[versions]
+horizontalRuler = "1.0"
+
+[libraries]
+horizontal-ruler = { module = "com.github.CelestialBeats:HorizontalRuler", version.ref = "horizontalRuler" }
+```
+
+`build.gradle.kts`
+
+```kotlin
+dependencies {
+    implementation(libs.horizontal.ruler)
+}
+```
+
+### 3) Local module (optional)
+If you want to use source code directly instead of JitPack:
 
 ```kotlin
 implementation(project(":horizontalscrollview"))
