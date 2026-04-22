@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="XML Config Example"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvXmlValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Selected: 0.0" />
+
+        <com.cb.horizontalRuler.HorizontalRuler
+            android:id="@+id/xmlRuler"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_marginTop="8dp"
+            app:baselinePaddingBottom="10dp"
+            app:baselineStrokeWidth="1dp"
+            app:edgeColor="#BD9519"
+            app:edgeInset="10dp"
+            app:edgeStrokeWidth="2dp"
+            app:flingEnabled="true"
+            app:indicatorColor="#E83CB0"
+            app:indicatorHeight="44dp"
+            app:indicatorWidth="3dp"
+            app:initialValue="0"
+            app:majorTickHeight="38dp"
+            app:maxValue="150"
+            app:mediumTickHeight="28dp"
+            app:minValue="-150"
+            app:minorTickHeight="16dp"
+            app:minorTicksPerMajor="10"
+            app:rulerBackgroundColor="#FFF5F8"
+            app:showBaseline="true"
+            app:showEdges="true"
+            app:snapAnimationDurationMs="220"
+            app:tickColor="#6A6A6A"
+            app:tickSpacing="38dp"
+            app:tickStrokeWidth="1dp"
+            app:valueStep="0.5" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:background="#22000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Runtime Config Example (Kotlin)"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvCodeValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Selected: 0.0" />
+
+        <com.cb.horizontalRuler.HorizontalRuler
+            android:id="@+id/codeRuler"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_marginTop="8dp"
+            app:initialValue="20"
+            app:maxValue="100"
+            app:minValue="0"
+            app:valueStep="1" />
+
+        <Button
+            android:id="@+id/btnApplyRuntimeConfig"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="Apply Runtime Config" />
+
+        <Button
+            android:id="@+id/btnAnimateToValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Animate To 42.5" />
+
+    </LinearLayout>
+</ScrollView>
