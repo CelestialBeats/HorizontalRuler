@@ -12,7 +12,7 @@ A lightweight and customizable Android `View` to pick numeric values with horizo
 
 Below are some sample Image:
 
-<img width="720" height="720" alt="Screenshot_2026-04-22-10-49-33-30_c8c5448a68817740facea98ffd101ea1" src="https://github.com/user-attachments/assets/721e9026-2417-406c-89bf-6ba6657461d6" />
+<img width="480" height="480" alt="Screenshot_2026-04-22-10-49-33-30_c8c5448a68817740facea98ffd101ea1" src="https://github.com/user-attachments/assets/721e9026-2417-406c-89bf-6ba6657461d6" />
 
 ## Demo
 The sample app includes 2 examples:
@@ -27,27 +27,6 @@ Add the library module to your project and include:
 ```kotlin
 implementation(project(":horizontalscrollview"))
 ```
-
-### Option 2: JitPack (after pushing tags)
-In `settings.gradle`:
-
-```kotlin
-dependencyResolutionManagement {
-    repositories {
-        google()
-        mavenCentral()
-        maven("https://jitpack.io")
-    }
-}
-```
-
-In app/module `build.gradle`:
-
-```kotlin
-implementation("com.github.<YOUR_GITHUB_USERNAME>:HScrollview:<TAG>")
-```
-
-Replace `<YOUR_GITHUB_USERNAME>` and `<TAG>` (example: `v1.0.0`).
 
 ## Quick Start (XML)
 
