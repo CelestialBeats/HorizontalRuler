@@ -10,6 +10,10 @@ A lightweight and customizable Android `View` to pick numeric values with horizo
 - Runtime APIs for dynamic reconfiguration
 - Safe state restore on configuration changes
 
+Below are some sample Image:
+
+<img width="1080" height="1080" alt="Screenshot_2026-04-22-10-49-33-30_c8c5448a68817740facea98ffd101ea1" src="https://github.com/user-attachments/assets/721e9026-2417-406c-89bf-6ba6657461d6" />
+
 ## Demo
 The sample app includes 2 examples:
 - XML-only configuration
