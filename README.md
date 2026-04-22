@@ -12,7 +12,7 @@ A lightweight and customizable Android `View` to pick numeric values with horizo
 
 Below are some sample Image:
 
-![Slant Layout Example](https://github.com/user-attachments/assets/721e9026-2417-406c-89bf-6ba6657461d6)
+![Slant Layout Example](https://github.com/user-attachments/assets/c5540238-3a48-4ecb-bc7e-7437aa352254)
 
 ## Demo
 The sample app includes 2 examples:
