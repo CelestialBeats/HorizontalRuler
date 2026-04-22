@@ -13,6 +13,7 @@ A lightweight and customizable Android `View` to pick numeric values with horizo
 Below are some sample Image:
 
 <img width="480" height="480" alt="Screenshot_2026-04-22-10-49-33-30_c8c5448a68817740facea98ffd101ea1" src="https://github.com/user-attachments/assets/721e9026-2417-406c-89bf-6ba6657461d6" />
+(https://github.com/user-attachments/assets/b0a8134c-6cb4-4ab5-ae6e-aaf69ed535cb)
 
 ## Demo
 The sample app includes 2 examples:
